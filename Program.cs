@@ -1,8 +1,13 @@
 ﻿string[] Inventory = { "Health Potion", "Sword ", "Shield","Bread","Key" };
 
-for (int i = 0; i < Inventory.Length; i++)
-{
-    Console.WriteLine($"slot {i}: {Inventory[i]}");
-}
+// for (int i = 0; i < Inventory.Length; i++) 
+// {
+//     Console.WriteLine($"slot {i}: {Inventory[i]}");
+// }
 
-Console.WriteLine($"\nTotal items: {Inventory.Length}");
+// Console.WriteLine($"\nTotal items: {Inventory.Length}"); 
+
+foreach (string item in Inventory)
+{
+    Console.WriteLine(item);
+}
