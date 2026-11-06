@@ -5,9 +5,9 @@
 //     Console.WriteLine($"slot {i}: {Inventory[i]}");
 // }
 
-// Console.WriteLine($"\nTotal items: {Inventory.Length}"); 
-
-foreach (string item in Inventory)
+foreach (var item in Inventory) 
 {
     Console.WriteLine(item);
 }
+
+Console.WriteLine($"\nTotal items: {Inventory.Length}");
